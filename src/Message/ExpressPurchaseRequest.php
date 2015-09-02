@@ -3,9 +3,9 @@
 namespace Omnipay\PayPal\Message;
 
 /**
- * PayPal Express Complete Purchase Request
+ * PayPal Express Purchase Request
  */
-class ExpressCompletePurchaseRequest extends ExpressCompleteAuthorizeRequest
+class ExpressPurchaseRequest extends ExpressAuthorizeRequest
 {
 
     public function getAllowedPaymentMethod()
